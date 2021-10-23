@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C568B479271D18700045587C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B478271D18700045587C /* AppDelegate.swift */; };
+		C568B47B271D18700045587C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B47A271D18700045587C /* SceneDelegate.swift */; };
+		C568B47D271D18700045587C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B47C271D18700045587C /* ViewController.swift */; };
+		C568B480271D18700045587C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C568B47E271D18700045587C /* Main.storyboard */; };
+		C568B482271D18710045587C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C568B481271D18710045587C /* Assets.xcassets */; };
+		C568B485271D18710045587C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C568B483271D18710045587C /* LaunchScreen.storyboard */; };
+		C568B490271D18710045587C /* CashierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B48F271D18710045587C /* CashierTests.swift */; };
+		C568B49B271D18710045587C /* CashierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B49A271D18710045587C /* CashierUITests.swift */; };
+		C568B4A9271D1E060045587C /* myCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4A8271D1E060045587C /* myCustomButton.swift */; };
+		C568B4B2271D31930045587C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4B1271D31930045587C /* Product.swift */; };
+		C568B4B4271D32000045587C /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4B3271D32000045587C /* ProductManager.swift */; };
+		C568B4BD271E53EE0045587C /* alertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4BC271E53EE0045587C /* alertService.swift */; };
+		C568B4BF271E889A0045587C /* restockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4BE271E889A0045587C /* restockViewController.swift */; };
+		C568B4C1271E8F430045587C /* managerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4C0271E8F430045587C /* managerViewController.swift */; };
+		C568B4C3271F637D0045587C /* historyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4C2271F637D0045587C /* historyTableViewController.swift */; };
+		C568B4C5271F6A5F0045587C /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4C4271F6A5F0045587C /* myTableViewCell.swift */; };
+		C568B4C7271F6E650045587C /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4C6271F6E650045587C /* HistoryManager.swift */; };
+		C568B4C9271F6F820045587C /* HistoryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4C8271F6F820045587C /* HistoryObject.swift */; };
+		C568B4CB271F75040045587C /* historyItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C568B4CA271F75040045587C /* historyItemViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C568B48C271D18710045587C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C568B46D271D18700045587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C568B474271D18700045587C;
+			remoteInfo = Cashier;
+		};
+		C568B497271D18710045587C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C568B46D271D18700045587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C568B474271D18700045587C;
+			remoteInfo = Cashier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C568B475271D18700045587C /* Cashier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cashier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C568B478271D18700045587C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C568B47A271D18700045587C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C568B47C271D18700045587C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C568B47F271D18700045587C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C568B481271D18710045587C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C568B484271D18710045587C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C568B486271D18710045587C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C568B48B271D18710045587C /* CashierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C568B48F271D18710045587C /* CashierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierTests.swift; sourceTree = "<group>"; };
+		C568B491271D18710045587C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C568B496271D18710045587C /* CashierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C568B49A271D18710045587C /* CashierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierUITests.swift; sourceTree = "<group>"; };
+		C568B49C271D18710045587C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C568B4A8271D1E060045587C /* myCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCustomButton.swift; sourceTree = "<group>"; };
+		C568B4B1271D31930045587C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C568B4B3271D32000045587C /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		C568B4BC271E53EE0045587C /* alertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertService.swift; sourceTree = "<group>"; };
+		C568B4BE271E889A0045587C /* restockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restockViewController.swift; sourceTree = "<group>"; };
+		C568B4C0271E8F430045587C /* managerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerViewController.swift; sourceTree = "<group>"; };
+		C568B4C2271F637D0045587C /* historyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyTableViewController.swift; sourceTree = "<group>"; };
+		C568B4C4271F6A5F0045587C /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		C568B4C6271F6E650045587C /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		C568B4C8271F6F820045587C /* HistoryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryObject.swift; sourceTree = "<group>"; };
+		C568B4CA271F75040045587C /* historyItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyItemViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C568B472271D18700045587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C568B488271D18710045587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C568B493271D18710045587C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C568B46C271D18700045587C = {
+			isa = PBXGroup;
+			children = (
+				C568B477271D18700045587C /* Cashier */,
+				C568B48E271D18710045587C /* CashierTests */,
+				C568B499271D18710045587C /* CashierUITests */,
+				C568B476271D18700045587C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C568B476271D18700045587C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C568B475271D18700045587C /* Cashier.app */,
+				C568B48B271D18710045587C /* CashierTests.xctest */,
+				C568B496271D18710045587C /* CashierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C568B477271D18700045587C /* Cashier */ = {
+			isa = PBXGroup;
+			children = (
+				C568B4B5271D372E0045587C /* Model */,
+				C568B478271D18700045587C /* AppDelegate.swift */,
+				C568B47A271D18700045587C /* SceneDelegate.swift */,
+				C568B4AE271D22750045587C /* ViewControllers */,
+				C568B47E271D18700045587C /* Main.storyboard */,
+				C568B4AB271D1FCE0045587C /* View */,
+				C568B481271D18710045587C /* Assets.xcassets */,
+				C568B483271D18710045587C /* LaunchScreen.storyboard */,
+				C568B486271D18710045587C /* Info.plist */,
+				C568B4BC271E53EE0045587C /* alertService.swift */,
+			);
+			path = Cashier;
+			sourceTree = "<group>";
+		};
+		C568B48E271D18710045587C /* CashierTests */ = {
+			isa = PBXGroup;
+			children = (
+				C568B48F271D18710045587C /* CashierTests.swift */,
+				C568B491271D18710045587C /* Info.plist */,
+			);
+			path = CashierTests;
+			sourceTree = "<group>";
+		};
+		C568B499271D18710045587C /* CashierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C568B49A271D18710045587C /* CashierUITests.swift */,
+				C568B49C271D18710045587C /* Info.plist */,
+			);
+			path = CashierUITests;
+			sourceTree = "<group>";
+		};
+		C568B4AB271D1FCE0045587C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C568B4A8271D1E060045587C /* myCustomButton.swift */,
+				C568B4C4271F6A5F0045587C /* myTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C568B4AE271D22750045587C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C568B47C271D18700045587C /* ViewController.swift */,
+				C568B4BE271E889A0045587C /* restockViewController.swift */,
+				C568B4C0271E8F430045587C /* managerViewController.swift */,
+				C568B4C2271F637D0045587C /* historyTableViewController.swift */,
+				C568B4CA271F75040045587C /* historyItemViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C568B4B5271D372E0045587C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C568B4B1271D31930045587C /* Product.swift */,
+				C568B4B3271D32000045587C /* ProductManager.swift */,
+				C568B4C6271F6E650045587C /* HistoryManager.swift */,
+				C568B4C8271F6F820045587C /* HistoryObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C568B474271D18700045587C /* Cashier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C568B49F271D18710045587C /* Build configuration list for PBXNativeTarget "Cashier" */;
+			buildPhases = (
+				C568B471271D18700045587C /* Sources */,
+				C568B472271D18700045587C /* Frameworks */,
+				C568B473271D18700045587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cashier;
+			productName = Cashier;
+			productReference = C568B475271D18700045587C /* Cashier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C568B48A271D18710045587C /* CashierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C568B4A2271D18710045587C /* Build configuration list for PBXNativeTarget "CashierTests" */;
+			buildPhases = (
+				C568B487271D18710045587C /* Sources */,
+				C568B488271D18710045587C /* Frameworks */,
+				C568B489271D18710045587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C568B48D271D18710045587C /* PBXTargetDependency */,
+			);
+			name = CashierTests;
+			productName = CashierTests;
+			productReference = C568B48B271D18710045587C /* CashierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C568B495271D18710045587C /* CashierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C568B4A5271D18710045587C /* Build configuration list for PBXNativeTarget "CashierUITests" */;
+			buildPhases = (
+				C568B492271D18710045587C /* Sources */,
+				C568B493271D18710045587C /* Frameworks */,
+				C568B494271D18710045587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C568B498271D18710045587C /* PBXTargetDependency */,
+			);
+			name = CashierUITests;
+			productName = CashierUITests;
+			productReference = C568B496271D18710045587C /* CashierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C568B46D271D18700045587C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C568B474271D18700045587C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C568B48A271D18710045587C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C568B474271D18700045587C;
+					};
+					C568B495271D18710045587C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C568B474271D18700045587C;
+					};
+				};
+			};
+			buildConfigurationList = C568B470271D18700045587C /* Build configuration list for PBXProject "Cashier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C568B46C271D18700045587C;
+			productRefGroup = C568B476271D18700045587C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C568B474271D18700045587C /* Cashier */,
+				C568B48A271D18710045587C /* CashierTests */,
+				C568B495271D18710045587C /* CashierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C568B473271D18700045587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C568B485271D18710045587C /* LaunchScreen.storyboard in Resources */,
+				C568B482271D18710045587C /* Assets.xcassets in Resources */,
+				C568B480271D18700045587C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C568B489271D18710045587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C568B494271D18710045587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C568B471271D18700045587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C568B4C3271F637D0045587C /* historyTableViewController.swift in Sources */,
+				C568B4C9271F6F820045587C /* HistoryObject.swift in Sources */,
+				C568B4CB271F75040045587C /* historyItemViewController.swift in Sources */,
+				C568B4BF271E889A0045587C /* restockViewController.swift in Sources */,
+				C568B4A9271D1E060045587C /* myCustomButton.swift in Sources */,
+				C568B4C5271F6A5F0045587C /* myTableViewCell.swift in Sources */,
+				C568B4BD271E53EE0045587C /* alertService.swift in Sources */,
+				C568B4B4271D32000045587C /* ProductManager.swift in Sources */,
+				C568B4C7271F6E650045587C /* HistoryManager.swift in Sources */,
+				C568B47D271D18700045587C /* ViewController.swift in Sources */,
+				C568B479271D18700045587C /* AppDelegate.swift in Sources */,
+				C568B47B271D18700045587C /* SceneDelegate.swift in Sources */,
+				C568B4B2271D31930045587C /* Product.swift in Sources */,
+				C568B4C1271E8F430045587C /* managerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C568B487271D18710045587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C568B490271D18710045587C /* CashierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C568B492271D18710045587C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C568B49B271D18710045587C /* CashierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C568B48D271D18710045587C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C568B474271D18700045587C /* Cashier */;
+			targetProxy = C568B48C271D18710045587C /* PBXContainerItemProxy */;
+		};
+		C568B498271D18710045587C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C568B474271D18700045587C /* Cashier */;
+			targetProxy = C568B497271D18710045587C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C568B47E271D18700045587C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C568B47F271D18700045587C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C568B483271D18710045587C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C568B484271D18710045587C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C568B49D271D18710045587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C568B49E271D18710045587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C568B4A0271D18710045587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cashier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.Cashier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C568B4A1271D18710045587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cashier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.Cashier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C568B4A3271D18710045587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.CashierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashier.app/Cashier";
+			};
+			name = Debug;
+		};
+		C568B4A4271D18710045587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashierTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.CashierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cashier.app/Cashier";
+			};
+			name = Release;
+		};
+		C568B4A6271D18710045587C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.CashierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cashier;
+			};
+			name = Debug;
+		};
+		C568B4A7271D18710045587C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CashierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.CashierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cashier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C568B470271D18700045587C /* Build configuration list for PBXProject "Cashier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C568B49D271D18710045587C /* Debug */,
+				C568B49E271D18710045587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C568B49F271D18710045587C /* Build configuration list for PBXNativeTarget "Cashier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C568B4A0271D18710045587C /* Debug */,
+				C568B4A1271D18710045587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C568B4A2271D18710045587C /* Build configuration list for PBXNativeTarget "CashierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C568B4A3271D18710045587C /* Debug */,
+				C568B4A4271D18710045587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C568B4A5271D18710045587C /* Build configuration list for PBXNativeTarget "CashierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C568B4A6271D18710045587C /* Debug */,
+				C568B4A7271D18710045587C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C568B46D271D18700045587C /* Project object */;
+}
